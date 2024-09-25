@@ -1,0 +1,9 @@
+function Result()
+{
+    var name=document.getElementById("Name").value;
+    var pass=100*Math.random();
+    var Result=document.getElementById("Result");
+    document.getElementById("Result");
+    Result.innerHTML=name+",you have scored:"
+    +pass.toFixed(2)+"%";
+}
